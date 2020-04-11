@@ -1,0 +1,29 @@
+@import '../../styles/shared.scss';
+
+.ui.menu.top-menu {
+    border: none;
+    .logo {
+      // width: 17rem;
+      width: $sidebar-left-width;
+      // background-color: rgb(20, 25, 27);
+    }
+    .nav-container {
+      flex-grow: 1;
+      padding: 0;
+      // background-color: rgb(20, 25, 27);
+  
+      .search-input {
+        padding-left: 0;
+        width: 33%;
+        
+  
+        form {
+          width: 100%;
+        }
+      }
+    }
+  
+    .header-icon {
+      color: #a0a0a0;
+    }
+  }

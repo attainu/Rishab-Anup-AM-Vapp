@@ -1,0 +1,19 @@
+@import '../../styles/shared.scss';
+$sidebar-hover-color: #ebebeb;
+.ui.menu.fixed.side-nav {
+//  background-color: rgb(20, 25, 27);
+    // margin-top: 64px;
+    margin-top: $header-nav-height;
+    padding-bottom: $header-nav-height;
+    overflow-y: auto;
+    // padding-bottom: 64px;
+    
+  
+    .sidebar-item:hover {
+      background: #ebebeb;
+    }
+  }
+  
+  .side-nav.ui.vertical.menu {
+    width: 17rem;
+  }
